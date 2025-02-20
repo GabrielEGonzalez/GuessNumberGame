@@ -10,5 +10,39 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+    color: #ffffffa1;
+}
+
+.content{
+    padding: 1rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenido-titulo{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.contenido-juego{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.juego-button button{
+    padding: 0.5rem 2rem;
+    background-color: #ffffffa1;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
 }
