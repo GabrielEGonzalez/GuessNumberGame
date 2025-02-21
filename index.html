@@ -7,17 +7,15 @@
     <title>Guess</title>
 </head>
 <body>
-    <main class="content">
-        <div class="contenido-titulo">
-            <h1>¿Puedes adivinar el número misterioso?</h1>
+    <main class="contenedor">
+
+        <div>
+          <h1>N-intento:<span id="numeroIntento"></span></h1>
         </div>
-        <div class="contenido-juego">
-            <div class="juego">
-                <p>Tendrás 6 intentos para adivinar un número generado aleatoriamente entre 1 y 100. <br> Después de cada intento, recibirás una pista sobre si tu suposición fue demasiado alta o demasiado baja.</p>
-            </div>
-            <div class="juego-button">
-                <a href="adivinar.html"><button type="button" class="btn">jugar</button></a>
-            </div>
-    </main>
+        <input type="text" class="numero" placeholder="ingresa el número">
+        <input type="submit" class="enviarNumero">
+        <span id="contenido">0</span>
+        <button id="enviarStar">jugar</button>
+      </main>
 </body>
 </html>
